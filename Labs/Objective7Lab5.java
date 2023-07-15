@@ -20,9 +20,12 @@ public class Objective7Lab5 {
 			else if(selection == 2) {
 				System.out.println("Apples, Bananas, Coconuts");
 			}
-			else {
+			else if(selection == 3) {
 				System.out.println("Good bye!");
 				break;
+			}
+			else {
+				System.out.println("You have entered an invalid selection, please try again.");
 			}
 		}
 
